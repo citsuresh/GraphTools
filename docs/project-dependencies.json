@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-07-26T10:07:31.2342416Z",
+  "solutionPath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.slnx",
+  "projects": [
+    {
+      "name": "GraphTools.Builder",
+      "path": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\GraphTools.Builder.csproj",
+      "references": [
+        "GraphTools.Core"
+      ]
+    },
+    {
+      "name": "GraphTools.Core",
+      "path": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphTools.Core.csproj",
+      "references": []
+    },
+    {
+      "name": "GraphTools.Query",
+      "path": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\GraphTools.Query.csproj",
+      "references": [
+        "GraphTools.Core"
+      ]
+    }
+  ]
+}

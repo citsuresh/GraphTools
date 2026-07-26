@@ -1,0 +1,3280 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-07-26T10:07:29.09707Z",
+  "solutionPath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.slnx",
+  "mode": "full",
+  "nodes": [
+    {
+      "id": "Program",
+      "kind": "class",
+      "name": "Program",
+      "containingType": null,
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 1,
+      "endLine": 289,
+      "accessibility": "internal",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "Program.\u003CMain\u003E$(string[])",
+      "kind": "method",
+      "name": "\u003CMain\u003E$",
+      "containingType": "Program",
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 1,
+      "endLine": 289,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "BuilderOptions",
+      "kind": "class",
+      "name": "BuilderOptions",
+      "containingType": null,
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 279,
+      "endLine": 288,
+      "accessibility": "internal",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "BuilderOptions.Solution",
+      "kind": "property",
+      "name": "Solution",
+      "containingType": "BuilderOptions",
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 281,
+      "endLine": 281,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "BuilderOptions.Output",
+      "kind": "property",
+      "name": "Output",
+      "containingType": "BuilderOptions",
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 282,
+      "endLine": 282,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "BuilderOptions.Mode",
+      "kind": "property",
+      "name": "Mode",
+      "containingType": "BuilderOptions",
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 283,
+      "endLine": 283,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "BuilderOptions.Graph",
+      "kind": "property",
+      "name": "Graph",
+      "containingType": "BuilderOptions",
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 284,
+      "endLine": 284,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "BuilderOptions.DiffMode",
+      "kind": "property",
+      "name": "DiffMode",
+      "containingType": "BuilderOptions",
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 285,
+      "endLine": 285,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "BuilderOptions.DiffOld",
+      "kind": "property",
+      "name": "DiffOld",
+      "containingType": "BuilderOptions",
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 286,
+      "endLine": 286,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "BuilderOptions.DiffNew",
+      "kind": "property",
+      "name": "DiffNew",
+      "containingType": "BuilderOptions",
+      "project": "GraphTools.Builder",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "startLine": 287,
+      "endLine": 287,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor",
+      "kind": "class",
+      "name": "GraphExtractor",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 7,
+      "endLine": 424,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "kind": "method",
+      "name": "ExtractProjectAsync",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 9,
+      "endLine": 25,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.VisitNamespace(INamespaceSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "kind": "method",
+      "name": "VisitNamespace",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 27,
+      "endLine": 42,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "kind": "method",
+      "name": "VisitType",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 44,
+      "endLine": 115,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "kind": "method",
+      "name": "VisitMember",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 117,
+      "endLine": 275,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "kind": "method",
+      "name": "ExtractBodyEdges",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 277,
+      "endLine": 327,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "kind": "method",
+      "name": "GetTypeId",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 329,
+      "endLine": 333,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.GetMethodId(string,IMethodSymbol)",
+      "kind": "method",
+      "name": "GetMethodId",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 335,
+      "endLine": 354,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.FormatParameter(IParameterSymbol)",
+      "kind": "method",
+      "name": "FormatParameter",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 359,
+      "endLine": 369,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.GetPropertyId(string,string)",
+      "kind": "method",
+      "name": "GetPropertyId",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 371,
+      "endLine": 371,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.GetPropertyId(string,IPropertySymbol)",
+      "kind": "method",
+      "name": "GetPropertyId",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 373,
+      "endLine": 382,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.GetKindForType(INamedTypeSymbol)",
+      "kind": "method",
+      "name": "GetKindForType",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 384,
+      "endLine": 391,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.GetAccessibility(Accessibility)",
+      "kind": "method",
+      "name": "GetAccessibility",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 393,
+      "endLine": 402,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "kind": "method",
+      "name": "GetFirstDeclarationLocation",
+      "containingType": "GraphTools.Core.GraphExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "startLine": 410,
+      "endLine": 423,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.JsonHelper",
+      "kind": "class",
+      "name": "JsonHelper",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "startLine": 5,
+      "endLine": 25,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.JsonHelper.Options",
+      "kind": "field",
+      "name": "Options",
+      "containingType": "GraphTools.Core.JsonHelper",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "startLine": 7,
+      "endLine": 11,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.JsonHelper.WriteToFile\u00601(string,T)",
+      "kind": "method",
+      "name": "WriteToFile",
+      "containingType": "GraphTools.Core.JsonHelper",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "startLine": 13,
+      "endLine": 17,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.JsonHelper.ReadFromFile\u00601(string)",
+      "kind": "method",
+      "name": "ReadFromFile",
+      "containingType": "GraphTools.Core.JsonHelper",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "startLine": 19,
+      "endLine": 24,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode",
+      "kind": "class",
+      "name": "GraphNode",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 5,
+      "endLine": 18,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.Id",
+      "kind": "property",
+      "name": "Id",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 7,
+      "endLine": 7,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.Kind",
+      "kind": "property",
+      "name": "Kind",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 8,
+      "endLine": 8,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.Name",
+      "kind": "property",
+      "name": "Name",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 9,
+      "endLine": 9,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.ContainingType",
+      "kind": "property",
+      "name": "ContainingType",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 10,
+      "endLine": 10,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.Project",
+      "kind": "property",
+      "name": "Project",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 11,
+      "endLine": 11,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.FilePath",
+      "kind": "property",
+      "name": "FilePath",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 12,
+      "endLine": 12,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.StartLine",
+      "kind": "property",
+      "name": "StartLine",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 13,
+      "endLine": 13,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.EndLine",
+      "kind": "property",
+      "name": "EndLine",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 14,
+      "endLine": 14,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.Accessibility",
+      "kind": "property",
+      "name": "Accessibility",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 15,
+      "endLine": 15,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.IsStatic",
+      "kind": "property",
+      "name": "IsStatic",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 16,
+      "endLine": 16,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphNode.IsAbstract",
+      "kind": "property",
+      "name": "IsAbstract",
+      "containingType": "GraphTools.Core.GraphNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 17,
+      "endLine": 17,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphEdge",
+      "kind": "class",
+      "name": "GraphEdge",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 20,
+      "endLine": 27,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphEdge.Type",
+      "kind": "property",
+      "name": "Type",
+      "containingType": "GraphTools.Core.GraphEdge",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 22,
+      "endLine": 22,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphEdge.SourceId",
+      "kind": "property",
+      "name": "SourceId",
+      "containingType": "GraphTools.Core.GraphEdge",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 23,
+      "endLine": 23,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphEdge.TargetId",
+      "kind": "property",
+      "name": "TargetId",
+      "containingType": "GraphTools.Core.GraphEdge",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 24,
+      "endLine": 24,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphEdge.FilePath",
+      "kind": "property",
+      "name": "FilePath",
+      "containingType": "GraphTools.Core.GraphEdge",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 25,
+      "endLine": 25,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.GraphEdge.Line",
+      "kind": "property",
+      "name": "Line",
+      "containingType": "GraphTools.Core.GraphEdge",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 26,
+      "endLine": 26,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.FullGraph",
+      "kind": "class",
+      "name": "FullGraph",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 29,
+      "endLine": 37,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.FullGraph.SchemaVersion",
+      "kind": "property",
+      "name": "SchemaVersion",
+      "containingType": "GraphTools.Core.FullGraph",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 31,
+      "endLine": 31,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.FullGraph.GeneratedAt",
+      "kind": "property",
+      "name": "GeneratedAt",
+      "containingType": "GraphTools.Core.FullGraph",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 32,
+      "endLine": 32,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.FullGraph.SolutionPath",
+      "kind": "property",
+      "name": "SolutionPath",
+      "containingType": "GraphTools.Core.FullGraph",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 33,
+      "endLine": 33,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.FullGraph.Mode",
+      "kind": "property",
+      "name": "Mode",
+      "containingType": "GraphTools.Core.FullGraph",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 34,
+      "endLine": 34,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.FullGraph.Nodes",
+      "kind": "property",
+      "name": "Nodes",
+      "containingType": "GraphTools.Core.FullGraph",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 35,
+      "endLine": 35,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.FullGraph.Edges",
+      "kind": "property",
+      "name": "Edges",
+      "containingType": "GraphTools.Core.FullGraph",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 36,
+      "endLine": 36,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependency",
+      "kind": "class",
+      "name": "ProjectDependency",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 39,
+      "endLine": 44,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependency.Name",
+      "kind": "property",
+      "name": "Name",
+      "containingType": "GraphTools.Core.ProjectDependency",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 41,
+      "endLine": 41,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependency.Path",
+      "kind": "property",
+      "name": "Path",
+      "containingType": "GraphTools.Core.ProjectDependency",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 42,
+      "endLine": 42,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependency.References",
+      "kind": "property",
+      "name": "References",
+      "containingType": "GraphTools.Core.ProjectDependency",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 43,
+      "endLine": 43,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependencies",
+      "kind": "class",
+      "name": "ProjectDependencies",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 46,
+      "endLine": 52,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependencies.SchemaVersion",
+      "kind": "property",
+      "name": "SchemaVersion",
+      "containingType": "GraphTools.Core.ProjectDependencies",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 48,
+      "endLine": 48,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependencies.GeneratedAt",
+      "kind": "property",
+      "name": "GeneratedAt",
+      "containingType": "GraphTools.Core.ProjectDependencies",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 49,
+      "endLine": 49,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependencies.SolutionPath",
+      "kind": "property",
+      "name": "SolutionPath",
+      "containingType": "GraphTools.Core.ProjectDependencies",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 50,
+      "endLine": 50,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependencies.Projects",
+      "kind": "property",
+      "name": "Projects",
+      "containingType": "GraphTools.Core.ProjectDependencies",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 51,
+      "endLine": 51,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ModifiedNode",
+      "kind": "class",
+      "name": "ModifiedNode",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 54,
+      "endLine": 58,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ModifiedNode.Id",
+      "kind": "property",
+      "name": "Id",
+      "containingType": "GraphTools.Core.ModifiedNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 56,
+      "endLine": 56,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ModifiedNode.Change",
+      "kind": "property",
+      "name": "Change",
+      "containingType": "GraphTools.Core.ModifiedNode",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 57,
+      "endLine": 57,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.EdgeKey",
+      "kind": "class",
+      "name": "EdgeKey",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 60,
+      "endLine": 65,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.EdgeKey.Type",
+      "kind": "property",
+      "name": "Type",
+      "containingType": "GraphTools.Core.EdgeKey",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 62,
+      "endLine": 62,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.EdgeKey.SourceId",
+      "kind": "property",
+      "name": "SourceId",
+      "containingType": "GraphTools.Core.EdgeKey",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 63,
+      "endLine": 63,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.EdgeKey.TargetId",
+      "kind": "property",
+      "name": "TargetId",
+      "containingType": "GraphTools.Core.EdgeKey",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 64,
+      "endLine": 64,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport",
+      "kind": "class",
+      "name": "DiffReport",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 67,
+      "endLine": 78,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.SchemaVersion",
+      "kind": "property",
+      "name": "SchemaVersion",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 69,
+      "endLine": 69,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.GeneratedAt",
+      "kind": "property",
+      "name": "GeneratedAt",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 70,
+      "endLine": 70,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.OldGraph",
+      "kind": "property",
+      "name": "OldGraph",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 71,
+      "endLine": 71,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.NewGraph",
+      "kind": "property",
+      "name": "NewGraph",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 72,
+      "endLine": 72,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.AddedNodes",
+      "kind": "property",
+      "name": "AddedNodes",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 73,
+      "endLine": 73,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.RemovedNodes",
+      "kind": "property",
+      "name": "RemovedNodes",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 74,
+      "endLine": 74,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.ModifiedNodes",
+      "kind": "property",
+      "name": "ModifiedNodes",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 75,
+      "endLine": 75,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.AddedEdges",
+      "kind": "property",
+      "name": "AddedEdges",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 76,
+      "endLine": 76,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.DiffReport.RemovedEdges",
+      "kind": "property",
+      "name": "RemovedEdges",
+      "containingType": "GraphTools.Core.DiffReport",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\Models.cs",
+      "startLine": 77,
+      "endLine": 77,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.PathUtils",
+      "kind": "class",
+      "name": "PathUtils",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\PathUtils.cs",
+      "startLine": 3,
+      "endLine": 19,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "kind": "method",
+      "name": "IsInBuildOutputFolder",
+      "containingType": "GraphTools.Core.PathUtils",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\PathUtils.cs",
+      "startLine": 9,
+      "endLine": 18,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependencyExtractor",
+      "kind": "class",
+      "name": "ProjectDependencyExtractor",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "startLine": 5,
+      "endLine": 35,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "kind": "method",
+      "name": "Extract",
+      "containingType": "GraphTools.Core.ProjectDependencyExtractor",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "startLine": 7,
+      "endLine": 34,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.WorkspaceLoader",
+      "kind": "class",
+      "name": "WorkspaceLoader",
+      "containingType": null,
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "startLine": 6,
+      "endLine": 38,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.WorkspaceLoader.LoadSolutionAsync(string,Action\u003Cstring\u003E?)",
+      "kind": "method",
+      "name": "LoadSolutionAsync",
+      "containingType": "GraphTools.Core.WorkspaceLoader",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "startLine": 12,
+      "endLine": 22,
+      "accessibility": "public",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter",
+      "kind": "class",
+      "name": "ConsoleProgressReporter",
+      "containingType": "GraphTools.Core.WorkspaceLoader",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "startLine": 24,
+      "endLine": 37,
+      "accessibility": "private",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter._progress",
+      "kind": "field",
+      "name": "_progress",
+      "containingType": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "startLine": 26,
+      "endLine": 26,
+      "accessibility": "private",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter..ctor(Action\u003Cstring\u003E?)",
+      "kind": "constructor",
+      "name": ".ctor",
+      "containingType": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "startLine": 28,
+      "endLine": 31,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter.Report(ProjectLoadProgress)",
+      "kind": "method",
+      "name": "Report",
+      "containingType": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter",
+      "project": "GraphTools.Core",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "startLine": 33,
+      "endLine": 36,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "Program",
+      "kind": "class",
+      "name": "Program",
+      "containingType": null,
+      "project": "GraphTools.Query",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "startLine": 1,
+      "endLine": 160,
+      "accessibility": "internal",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "Program.\u003CMain\u003E$(string[])",
+      "kind": "method",
+      "name": "\u003CMain\u003E$",
+      "containingType": "Program",
+      "project": "GraphTools.Query",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "startLine": 1,
+      "endLine": 160,
+      "accessibility": "private",
+      "isStatic": true,
+      "isAbstract": false
+    },
+    {
+      "id": "QueryOptions",
+      "kind": "class",
+      "name": "QueryOptions",
+      "containingType": null,
+      "project": "GraphTools.Query",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "startLine": 152,
+      "endLine": 159,
+      "accessibility": "internal",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "QueryOptions.GraphPath",
+      "kind": "property",
+      "name": "GraphPath",
+      "containingType": "QueryOptions",
+      "project": "GraphTools.Query",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "startLine": 154,
+      "endLine": 154,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "QueryOptions.Symbol",
+      "kind": "property",
+      "name": "Symbol",
+      "containingType": "QueryOptions",
+      "project": "GraphTools.Query",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "startLine": 155,
+      "endLine": 155,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "QueryOptions.Direction",
+      "kind": "property",
+      "name": "Direction",
+      "containingType": "QueryOptions",
+      "project": "GraphTools.Query",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "startLine": 156,
+      "endLine": 156,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "QueryOptions.ListSymbols",
+      "kind": "property",
+      "name": "ListSymbols",
+      "containingType": "QueryOptions",
+      "project": "GraphTools.Query",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "startLine": 157,
+      "endLine": 157,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    },
+    {
+      "id": "QueryOptions.Project",
+      "kind": "property",
+      "name": "Project",
+      "containingType": "QueryOptions",
+      "project": "GraphTools.Query",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "startLine": 158,
+      "endLine": 158,
+      "accessibility": "public",
+      "isStatic": false,
+      "isAbstract": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Microsoft.Build.Locator.MSBuildLocator.RegisterDefaults()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 5
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.RunAsync(string[])",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 7
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.ParseArgs(string[])",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 13
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.RunDiff(BuilderOptions)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 21
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 21
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.TextWriter.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 23
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.RunIncrementalAsync(BuilderOptions)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 29
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.RunFullAsync(BuilderOptions)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 33
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.TextWriter.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 40
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 47
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.WorkspaceLoader.LoadSolutionAsync(string,Action\u003Cstring\u003E?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 48
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 48
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 57
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 61
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 62
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 62
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E.AddRange(IEnumerable\u003CGraphNode\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 63
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.AddRange(IEnumerable\u003CGraphEdge\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 64
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 67
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.WriteToFile\u00601(string,FullGraph)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 68
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.GetProjectDepsPath(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 70
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 71
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.WriteToFile\u00601(string,ProjectDependencies)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 72
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 74
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 75
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 80
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 85
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.ReadFromFile\u00601(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 86
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 88
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.WorkspaceLoader.LoadSolutionAsync(string,Action\u003Cstring\u003E?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 89
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 89
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.File.Exists(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 96
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 96
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.File.GetLastWriteTimeUtc(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 101
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Add(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 103
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 108
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 110
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CProject, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 110
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Any\u00601(Func\u003CDocument, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 111
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Contains(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 111
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 119
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 120
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 120
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E.AddRange(IEnumerable\u003CGraphNode\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 125
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphNode, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 125
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 125
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Contains(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 125
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.AddRange(IEnumerable\u003CGraphEdge\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 126
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphEdge, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 126
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 126
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Contains(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 126
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 130
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Concat\u00601(IEnumerable\u003CGraphNode\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 130
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphNode, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 130
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 131
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Contains(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 131
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 135
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Concat\u00601(IEnumerable\u003CGraphEdge\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 135
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphEdge, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 135
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 136
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Contains(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 136
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 149
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.WriteToFile\u00601(string,FullGraph)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 150
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.GetProjectDepsPath(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 152
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 153
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.WriteToFile\u00601(string,ProjectDependencies)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 154
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 156
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 161
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.ReadFromFile\u00601(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 162
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.ReadFromFile\u00601(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 163
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToDictionary\u00602(Func\u003CGraphNode, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 165
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToDictionary\u00602(Func\u003CGraphNode, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 166
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Except\u00601(IEnumerable\u003Cstring\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 175
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003Cstring\u003E.Add(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 177
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Except\u00601(IEnumerable\u003Cstring\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 180
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003Cstring\u003E.Add(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 182
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Intersect\u00601(IEnumerable\u003Cstring\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 185
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.DetectChange(GraphNode,GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 189
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.ModifiedNode\u003E.Add(ModifiedNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 192
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToHashSet\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 197
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Select\u00602(Func\u003CGraphEdge, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 197
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToHashSet\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 198
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Select\u00602(Func\u003CGraphEdge, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 198
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphEdge, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 200
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Contains(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 200
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.EdgeKeyString(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 200
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.EdgeKey\u003E.Add(EdgeKey)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 202
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphEdge, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 205
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Contains(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 205
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.EdgeKeyString(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 205
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.EdgeKey\u003E.Add(EdgeKey)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 207
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 210
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.WriteToFile\u00601(string,DiffReport)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 211
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 212
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.Equals(string?,string?,StringComparison)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 219
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003Cstring\u003E.Add(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 221
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003Cstring\u003E.Add(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 226
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003Cstring\u003E.Add(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 231
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003Cstring\u003E.Contains(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 234
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003Cstring\u003E.Add(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 236
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.Join(string?,IEnumerable\u003Cstring?\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 239
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Distinct\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 239
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.Path.GetDirectoryName(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 244
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 245
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.Path.Combine(string,string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 245
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.FullGraph",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 50
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.InvalidOperationException",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 82
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 91
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 114
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 115
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.FullGraph",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 140
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.DiffReport",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 168
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.ModifiedNode",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 192
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.EdgeKey",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 202
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.EdgeKey",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 207
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.List\u003Cstring\u003E",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 217
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "BuilderOptions",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Builder\\Program.cs",
+      "line": 250
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "targetId": "Microsoft.CodeAnalysis.Project.GetCompilationAsync(CancellationToken)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 15
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "targetId": "System.Action\u003Cstring\u003E.Invoke(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 18
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "targetId": "GraphTools.Core.GraphExtractor.VisitNamespace(INamespaceSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 23
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 12
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 13
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractProjectAsync(Project,Action\u003Cstring\u003E?)",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 22
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitNamespace(INamespaceSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.INamespaceSymbol.GetMembers()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 31
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitNamespace(INamespaceSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.VisitNamespace(INamespaceSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 35
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitNamespace(INamespaceSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.SymbolEqualityComparer.Equals(ISymbol?,ISymbol?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 37
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitNamespace(INamespaceSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 39
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 48
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "System.Collections.Generic.HashSet\u003Cstring\u003E.Add(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 49
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 54
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E.Add(GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 63
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetKindForType(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 66
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 68
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetAccessibility(Accessibility)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 73
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.Add(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 82
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 86
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.Add(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 95
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 99
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.INamespaceOrTypeSymbol.GetMembers()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 105
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 107
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.INamespaceOrTypeSymbol.GetTypeMembers()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 111
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 113
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphNode",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 63
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphEdge",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 82
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitType(INamedTypeSymbol,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E,HashSet\u003Cstring\u003E)",
+      "targetId": "GraphTools.Core.GraphEdge",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 95
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetMethodId(string,IMethodSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 135
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 136
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E.Add(GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 143
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetAccessibility(Accessibility)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 153
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 160
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.Add(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 161
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetMethodId(string,IMethodSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 165
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 171
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetPropertyId(string,IPropertySymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 175
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 176
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E.Add(GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 183
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetAccessibility(Accessibility)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 193
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Linq.ImmutableArrayExtensions.Any\u00601(Func\u003CLocation, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 198
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.Add(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 200
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 204
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 210
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetPropertyId(string,string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 214
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 215
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E.Add(GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 222
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetAccessibility(Accessibility)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 232
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Linq.ImmutableArrayExtensions.Any\u00601(Func\u003CLocation, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 237
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.Add(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 239
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 243
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetPropertyId(string,string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 251
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 252
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphNode\u003E.Add(GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 259
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetAccessibility(Accessibility)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 269
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphNode",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 143
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphEdge",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 161
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphNode",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 183
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphEdge",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 200
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphNode",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 222
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphEdge",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 239
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.VisitMember(ISymbol,string,Compilation,string,List\u003CGraphNode\u003E,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphNode",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 259
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 281
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.SyntaxReference.GetSyntax(CancellationToken)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 286
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.Compilation.GetSemanticModel(SyntaxTree,bool)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 288
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Linq.Enumerable.OfType\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 291
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.SyntaxNode.DescendantNodes(Func\u003CSyntaxNode, bool\u003E?,bool)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 291
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.CSharp.CSharpExtensions.GetSymbolInfo(ExpressionSyntax,CancellationToken)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 293
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 296
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.Location.GetLineSpan()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 297
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode.GetLocation()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 297
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.Add(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 298
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetMethodId(string,IMethodSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 302
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Linq.Enumerable.OfType\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 309
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.SyntaxNode.DescendantNodes(Func\u003CSyntaxNode, bool\u003E?,bool)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 309
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.CSharp.CSharpExtensions.GetSymbolInfo(ExpressionSyntax,CancellationToken)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 311
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 314
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.Location.GetLineSpan()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 315
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "Microsoft.CodeAnalysis.CSharp.CSharpSyntaxNode.GetLocation()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 315
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.GraphEdge\u003E.Add(GraphEdge)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 316
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphEdge",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 298
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.GraphExtractor.ExtractBodyEdges(ISymbol,string,Compilation,List\u003CGraphEdge\u003E)",
+      "targetId": "GraphTools.Core.GraphEdge",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 316
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "targetId": "Microsoft.CodeAnalysis.ISymbol.ToDisplayString(SymbolDisplayFormat?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 331
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetTypeId(INamedTypeSymbol)",
+      "targetId": "Microsoft.CodeAnalysis.SymbolDisplayFormat.WithGlobalNamespaceStyle(SymbolDisplayGlobalNamespaceStyle)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 331
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetMethodId(string,IMethodSymbol)",
+      "targetId": "string.Join(string?,IEnumerable\u003Cstring?\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 338
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetMethodId(string,IMethodSymbol)",
+      "targetId": "System.Linq.ImmutableArrayExtensions.Select\u00602(Func\u003CIParameterSymbol, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 338
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetMethodId(string,IMethodSymbol)",
+      "targetId": "Microsoft.CodeAnalysis.ISymbol.ToDisplayString(SymbolDisplayFormat?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 349
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.FormatParameter(IParameterSymbol)",
+      "targetId": "Microsoft.CodeAnalysis.ISymbol.ToDisplayString(SymbolDisplayFormat?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 361
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetPropertyId(string,IPropertySymbol)",
+      "targetId": "GraphTools.Core.GraphExtractor.GetPropertyId(string,string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 377
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetPropertyId(string,IPropertySymbol)",
+      "targetId": "string.Join(string?,IEnumerable\u003Cstring?\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 380
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetPropertyId(string,IPropertySymbol)",
+      "targetId": "System.Linq.ImmutableArrayExtensions.Select\u00602(Func\u003CIParameterSymbol, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 380
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetPropertyId(string,IPropertySymbol)",
+      "targetId": "Microsoft.CodeAnalysis.ISymbol.ToDisplayString(SymbolDisplayFormat?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 380
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "targetId": "System.Linq.ImmutableArrayExtensions.FirstOrDefault\u00601(Func\u003CSyntaxReference, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 412
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "targetId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 412
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "targetId": "System.Linq.ImmutableArrayExtensions.FirstOrDefault\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 413
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "targetId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 415
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "targetId": "Microsoft.CodeAnalysis.SyntaxReference.GetSyntax(CancellationToken)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 420
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "targetId": "Microsoft.CodeAnalysis.Location.GetLineSpan()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 421
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.GraphExtractor.GetFirstDeclarationLocation(ISymbol)",
+      "targetId": "Microsoft.CodeAnalysis.SyntaxNode.GetLocation()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\GraphExtractor.cs",
+      "line": 421
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.JsonHelper.WriteToFile\u00601(string,T)",
+      "targetId": "System.Text.Json.JsonSerializer.Serialize\u00601(T,JsonSerializerOptions?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "line": 15
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.JsonHelper.WriteToFile\u00601(string,T)",
+      "targetId": "System.IO.File.WriteAllText(string,string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "line": 16
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.JsonHelper.ReadFromFile\u00601(string)",
+      "targetId": "System.IO.File.ReadAllText(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "line": 21
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.JsonHelper.ReadFromFile\u00601(string)",
+      "targetId": "System.Text.Json.JsonSerializer.Deserialize\u00601(string,JsonSerializerOptions?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "line": 22
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.JsonHelper.ReadFromFile\u00601(string)",
+      "targetId": "System.InvalidOperationException",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\JsonHelper.cs",
+      "line": 23
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\PathUtils.cs",
+      "line": 11
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "targetId": "string.Split(char[]?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\PathUtils.cs",
+      "line": 16
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "targetId": "System.Linq.Enumerable.Any\u00601(Func\u003Cstring, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\PathUtils.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "targetId": "string.Equals(string?,StringComparison)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\PathUtils.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.PathUtils.IsInBuildOutputFolder(string?)",
+      "targetId": "string.Equals(string?,StringComparison)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\PathUtils.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "System.Linq.Enumerable.OrderBy\u00602(Func\u003Cstring, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "System.Linq.Enumerable.Select\u00602(Func\u003Cstring?, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003Cstring?, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "System.Linq.Enumerable.Select\u00602(Func\u003CProjectReference, string?\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "Microsoft.CodeAnalysis.Solution.GetProject(ProjectId?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 18
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "System.Collections.Generic.List\u003CGraphTools.Core.ProjectDependency\u003E.Add(ProjectDependency)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 24
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 32
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "System.Linq.Enumerable.OrderBy\u00602(Func\u003CProjectDependency, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 32
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "GraphTools.Core.ProjectDependencies",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 9
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.ProjectDependencyExtractor.Extract(Solution)",
+      "targetId": "GraphTools.Core.ProjectDependency",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\ProjectDependencyExtractor.cs",
+      "line": 24
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.WorkspaceLoader.LoadSolutionAsync(string,Action\u003Cstring\u003E?)",
+      "targetId": "Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace.Create()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "line": 14
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.WorkspaceLoader.LoadSolutionAsync(string,Action\u003Cstring\u003E?)",
+      "targetId": "System.Action\u003Cstring\u003E.Invoke(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.WorkspaceLoader.LoadSolutionAsync(string,Action\u003Cstring\u003E?)",
+      "targetId": "Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace.OpenSolutionAsync(string,IProgress\u003CProjectLoadProgress\u003E?,CancellationToken)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "line": 20
+    },
+    {
+      "type": "uses",
+      "sourceId": "GraphTools.Core.WorkspaceLoader.LoadSolutionAsync(string,Action\u003Cstring\u003E?)",
+      "targetId": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "line": 20
+    },
+    {
+      "type": "implements",
+      "sourceId": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter",
+      "targetId": "System.IProgress\u003CMicrosoft.CodeAnalysis.MSBuild.ProjectLoadProgress\u003E",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "line": 24
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter.Report(ProjectLoadProgress)",
+      "targetId": "System.Action\u003Cstring\u003E.Invoke(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "line": 35
+    },
+    {
+      "type": "calls",
+      "sourceId": "GraphTools.Core.WorkspaceLoader.ConsoleProgressReporter.Report(ProjectLoadProgress)",
+      "targetId": "System.IO.Path.GetFileName(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Core\\WorkspaceLoader.cs",
+      "line": 35
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Microsoft.Build.Locator.MSBuildLocator.RegisterDefaults()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 5
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.Run(string[])",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 7
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.ParseArgs(string[])",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 13
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 15
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.TextWriter.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 17
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "GraphTools.Core.JsonHelper.ReadFromFile\u00601(string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 21
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.RunListSymbols(FullGraph,QueryOptions)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 25
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 28
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.TextWriter.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 30
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.FirstOrDefault\u00601(Func\u003CGraphNode, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 34
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 37
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Text.Json.JsonSerializer.Serialize\u00601(\u003Canonymous type: string error, string symbol\u003E,JsonSerializerOptions?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 37
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.RunCallers(FullGraph,string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 44
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.RunCallees(FullGraph,string)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 46
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "Program.RunDefault(FullGraph,GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 48
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.IO.TextWriter.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 53
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Count\u00601(Func\u003CGraphEdge, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 60
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Count\u00601(Func\u003CGraphEdge, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 61
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 70
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Text.Json.JsonSerializer.Serialize\u00601(\u003Canonymous type: GraphNode node, int incomingEdgeCount, int outgoingEdgeCount\u003E,JsonSerializerOptions?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 70
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToDictionary\u00602(Func\u003CGraphNode, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 76
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 77
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Select\u00602(Func\u003CGraphEdge, \u003Canonymous type: GraphEdge edge, \u003Canonymous type: string Id, string Kind, string FilePath, int StartLine\u003E? source\u003E\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 77
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphEdge, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 77
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.Dictionary\u003Cstring, GraphTools.Core.GraphNode\u003E.TryGetValue(string,out GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 82
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 88
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Text.Json.JsonSerializer.Serialize\u00601(List\u003C\u003Canonymous type: GraphEdge edge, \u003Canonymous type: string Id, string Kind, string FilePath, int StartLine\u003E? source\u003E\u003E,JsonSerializerOptions?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 88
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToDictionary\u00602(Func\u003CGraphNode, string\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 94
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 95
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Select\u00602(Func\u003CGraphEdge, \u003Canonymous type: GraphEdge edge, \u003Canonymous type: string Id, string Kind, string FilePath, int StartLine\u003E? target\u003E\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 95
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphEdge, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 95
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Collections.Generic.Dictionary\u003Cstring, GraphTools.Core.GraphNode\u003E.TryGetValue(string,out GraphNode)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 100
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 106
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Text.Json.JsonSerializer.Serialize\u00601(List\u003C\u003Canonymous type: GraphEdge edge, \u003Canonymous type: string Id, string Kind, string FilePath, int StartLine\u003E? target\u003E\u003E,JsonSerializerOptions?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 106
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.AsEnumerable\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 112
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "string.IsNullOrEmpty(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 113
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Where\u00601(Func\u003CGraphNode, bool\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 115
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.ToList\u00601()",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 118
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Linq.Enumerable.Select\u00602(Func\u003CGraphNode, \u003Canonymous type: string Id, string Kind, string Name\u003E\u003E)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 118
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Console.WriteLine(string?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 119
+    },
+    {
+      "type": "calls",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "System.Text.Json.JsonSerializer.Serialize\u00601(List\u003C\u003Canonymous type: string Id, string Kind, string Name\u003E\u003E,JsonSerializerOptions?)",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 119
+    },
+    {
+      "type": "uses",
+      "sourceId": "Program.\u003CMain\u003E$(string[])",
+      "targetId": "QueryOptions",
+      "filePath": "C:\\MyFiles\\Git\\GraphTools\\GraphTools.Query\\Program.cs",
+      "line": 125
+    }
+  ]
+}

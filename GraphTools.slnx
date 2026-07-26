@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="docs/CODE_SUMMARY.md" />
+    <File Path="docs/DESIGN_DECISIONS.md" />
+    <File Path="docs/PROJECT_STATE.md" />
+    <File Path="docs/ROADMAP.md" />
+    <File Path="docs/full-graph.json" />
+    <File Path="docs/graph-viewer.html" />
+    <File Path="docs/project-dependencies.json" />
+  </Folder>
+  <Project Path="GraphTools.Builder/GraphTools.Builder.csproj" />
+  <Project Path="GraphTools.Core/GraphTools.Core.csproj" />
+  <Project Path="GraphTools.Query/GraphTools.Query.csproj" />
+</Solution>
