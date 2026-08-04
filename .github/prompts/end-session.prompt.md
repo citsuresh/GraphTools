@@ -1,1 +1,1 @@
-Invoke the project-memory-management-graph skill and run its End Session workflow exactly as defined.
+Use the project-memory-management-graph skill, run End Session workflow exactly as defined in the skill context.
