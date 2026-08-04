@@ -32,6 +32,7 @@ public class FullGraph
     public DateTime GeneratedAt { get; set; }
     public string SolutionPath { get; set; } = "";
     public string Mode { get; set; } = "full";
+    public string? CommitSha { get; set; }
     public List<GraphNode> Nodes { get; set; } = new();
     public List<GraphEdge> Edges { get; set; } = new();
 }
@@ -48,6 +49,7 @@ public class ProjectDependencies
     public string SchemaVersion { get; set; } = "1.0";
     public DateTime GeneratedAt { get; set; }
     public string SolutionPath { get; set; } = "";
+    public string? CommitSha { get; set; }
     public List<ProjectDependency> Projects { get; set; } = new();
 }
 

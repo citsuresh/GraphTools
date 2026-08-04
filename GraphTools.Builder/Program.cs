@@ -1,6 +1,7 @@
 ﻿using GraphTools.Core;
 using Microsoft.Build.Locator;
 using Microsoft.CodeAnalysis;
+using System.Diagnostics;
 
 MSBuildLocator.RegisterDefaults();
 
@@ -47,11 +48,14 @@ static async Task RunFullAsync(BuilderOptions options)
     Console.WriteLine("Loading workspace...");
     var solution = await WorkspaceLoader.LoadSolutionAsync(options.Solution!, msg => Console.WriteLine(msg));
 
+    var commitSha = TryGetCommitSha(options.Solution);
+
     var graph = new FullGraph
     {
         GeneratedAt = DateTime.UtcNow,
         SolutionPath = options.Solution!,
         Mode = "full",
+        CommitSha = commitSha,
     };
 
     var projects = solution.Projects.ToList();
@@ -69,6 +73,7 @@ static async Task RunFullAsync(BuilderOptions options)
 
     var depsPath = GetProjectDepsPath(options.Output!);
     var deps = ProjectDependencyExtractor.Extract(solution);
+    deps.CommitSha = commitSha;
     JsonHelper.WriteToFile(depsPath, deps);
 
     Console.WriteLine($"Wrote {graph.Nodes.Count} nodes and {graph.Edges.Count} edges to {options.Output}");
@@ -137,6 +142,8 @@ static async Task RunIncrementalAsync(BuilderOptions options)
         .Concat(newEdges)
         .ToList();
 
+    var commitSha = TryGetCommitSha(options.Solution);
+
     var mergedGraph = new FullGraph
     {
         GeneratedAt = DateTime.UtcNow,
@@ -144,6 +151,7 @@ static async Task RunIncrementalAsync(BuilderOptions options)
         Mode = "incremental",
         Nodes = mergedNodes,
         Edges = mergedEdges,
+        CommitSha = commitSha,
     };
 
     Console.WriteLine("Writing output...");
@@ -151,6 +159,7 @@ static async Task RunIncrementalAsync(BuilderOptions options)
 
     var depsPath = GetProjectDepsPath(options.Output!);
     var deps = ProjectDependencyExtractor.Extract(solution);
+    deps.CommitSha = commitSha;
     JsonHelper.WriteToFile(depsPath, deps);
 
     Console.WriteLine($"Wrote {mergedGraph.Nodes.Count} nodes and {mergedGraph.Edges.Count} edges to {options.Output}");
@@ -243,6 +252,46 @@ static string GetProjectDepsPath(string outputGraphPath)
 {
     var dir = Path.GetDirectoryName(outputGraphPath);
     return string.IsNullOrEmpty(dir) ? "project-dependencies.json" : Path.Combine(dir, "project-dependencies.json");
+}
+
+static string? TryGetCommitSha(string? solutionPath)
+{
+    try
+    {
+        if (string.IsNullOrEmpty(solutionPath))
+        {
+            return null;
+        }
+
+        var repoRoot = Path.GetDirectoryName(Path.GetFullPath(solutionPath));
+        if (string.IsNullOrEmpty(repoRoot))
+        {
+            return null;
+        }
+
+        var psi = new ProcessStartInfo("git", "rev-parse HEAD")
+        {
+            WorkingDirectory = repoRoot,
+            RedirectStandardOutput = true,
+            RedirectStandardError = true,
+            UseShellExecute = false,
+            CreateNoWindow = true,
+        };
+
+        using var process = Process.Start(psi);
+        if (process == null)
+        {
+            return null;
+        }
+
+        var output = process.StandardOutput.ReadToEnd().Trim();
+        process.WaitForExit();
+        return process.ExitCode == 0 && !string.IsNullOrEmpty(output) ? output : null;
+    }
+    catch
+    {
+        return null;
+    }
 }
 
 static BuilderOptions ParseArgs(string[] args)
