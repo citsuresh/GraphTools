@@ -3,24 +3,27 @@
 > This file is overwritten (not appended) at the end of each working session.
 
 ## Current Focus
-- Re-synced project-memory-management-graph skill from v2 to v9 (Bootstrap re-run triggered by
-  Begin Session's version-staleness gate). Split `docs/KEY_FLOWS.md` out of `CODE_SUMMARY.md`,
-  regenerated the "Persistent Project Memory" section in `.github/copilot-instructions.md`
-  (version marker now v9), rebuilt the full graph (99 nodes, 299 edges), and confirmed the
-  build still succeeds. `docs/domain-lookup-patterns.md` and `docs/KNOWN_OPEN_FINDINGS.md`
-  remain not-yet-created (neither has been triggered yet per their own creation rules). Also
-  fixed a recurring "Select an account" push prompt by confirming/re-setting `origin`'s URL to
-  embed the username (`https://citsuresh@github.com/citsuresh/GraphTools.git`).
+- 2026-11-05: Published Builder and Query as self-contained Windows x64 Release
+  applications targeting net8.0 for use on another machine.
+- Bundle: `C:\Users\sveluswa\Downloads\Shared\GraphTools-win-x64`
+  (approximately 192 MB). Includes separate Builder/Query folders with dependencies,
+  graph viewer, README, and START-HERE.txt with portable commands and prerequisites.
+- Verified the published Builder against GraphTools.slnx (99 nodes, 299 edges) and
+  the published Query (81 Core symbols). Temporary verification graphs were removed.
+- Created and successfully ran `C:\Users\sveluswa\Downloads\Shared\Publish-GraphTools.ps1`.
+  Rebuilds the timestamp-free bundle, copies docs, and smoke-checks both tools;
+  accepts SourceRoot and OutputRoot overrides.
+- Copied the script to `scripts\agent\Publish-GraphTools.ps1` and added a publish
+  instruction in `.github\copilot-instructions.md` with an explicit Shared output path.
 
 ## Open Tasks / Bugs
-- None identified. (If the "Select an account" push prompt still recurs despite the
-  username-embedded remote URL, the next step would be clearing the Windows/Git Credential
-  Manager cache for github.com.)
+- Destination-machine verification remains outstanding. Both tools initialize
+  MSBuildLocator and need a compatible installed .NET SDK; Builder also needs the
+  analyzed solution's targeting packs/workloads and restored dependencies.
+- Existing build warning: Workspace.WorkspaceFailed is obsolete (CS0618).
+- If the previously observed GitHub account-selection prompt recurs, investigate
+  Windows/Git Credential Manager credentials; origin already embeds the username.
 
 ## Recently Changed Files
-- `.github/copilot-instructions.md` (Persistent Project Memory section regenerated; skill
-  version marker bumped 2 -> 9)
-- `docs/KEY_FLOWS.md` (new: migrated Key Flows entries out of `CODE_SUMMARY.md`)
-- `docs/CODE_SUMMARY.md` (Key Flows section replaced with pointer to `KEY_FLOWS.md`)
-- `docs/full-graph.json`, `docs/project-dependencies.json` (full rebuild, 99 nodes/299 edges)
-- git remote `origin` URL (re-confirmed username-embedded HTTPS URL; no file changed, config only)
+- `docs/PROJECT_STATE.md` (this session snapshot only; no source changes).
+- External shared bundle created; no commits or pushes.

@@ -69,11 +69,15 @@
 ## Project Guidelines
 - Manual commit review before any commit.
 - Build/test verification after every change.
+- When the user asks to publish GraphTools, run
+  `.\scripts\agent\Publish-GraphTools.ps1 -SourceRoot (Get-Location).Path -OutputRoot 'C:\Users\sveluswa\Downloads\Shared'`
+  from the repository root, unless the user specifies another output location.
+  This refreshes the timestamp-free `GraphTools-win-x64` bundle and verifies both tools.
 - Do not commit or push automatically — wait for explicit user confirmation first.
 - For the GraphTools project (repo at C:\MyFiles\Git\GraphTools, remote https://github.com/citsuresh/GraphTools), git commits/pushes should use email citsuresh@rediffmail.com.
 
 ## Response Guidelines
-- Keep replies concise and minimal by default (no filler, no restating the question, no
+- Keep replies concise and minimal by default
   unnecessary preamble), EXCEPT in these cases where full detail is required:
   - Design rationale discussions.
   - Build/error diagnosis.
