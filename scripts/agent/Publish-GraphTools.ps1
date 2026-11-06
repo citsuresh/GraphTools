@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-Builds and copies a portable Windows x64 GraphTools bundle beside this script.
+Builds and copies a portable Windows x64 GraphTools bundle to C:\Shared by default.
 .DESCRIPTION
 Requires the GraphTools source checkout and a compatible .NET SDK.
 Re-running refreshes files in GraphTools-win-x64 without adding a timestamp.
@@ -14,7 +14,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Publish-GraphTools.ps1
 [CmdletBinding()]
 param(
     [string]$SourceRoot = 'C:\MyFiles\Git\GraphTools',
-    [string]$OutputRoot = $PSScriptRoot
+    [string]$OutputRoot = 'C:\Shared'
 )
 
 Set-StrictMode -Version Latest

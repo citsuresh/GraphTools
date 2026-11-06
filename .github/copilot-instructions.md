@@ -70,7 +70,7 @@
 - Manual commit review before any commit.
 - Build/test verification after every change.
 - When the user asks to publish GraphTools, run
-  `.\scripts\agent\Publish-GraphTools.ps1 -SourceRoot (Get-Location).Path -OutputRoot 'C:\Users\sveluswa\Downloads\Shared'`
+  `.\scripts\agent\Publish-GraphTools.ps1 -SourceRoot (Get-Location).Path -OutputRoot 'C:\Shared'`
   from the repository root, unless the user specifies another output location.
   This refreshes the timestamp-free `GraphTools-win-x64` bundle and verifies both tools.
 - Do not commit or push automatically — wait for explicit user confirmation first.
